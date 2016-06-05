@@ -9,3 +9,4 @@
 - "eslint-config-elemefe": "*"
 - "eslint-plugin-vue": "*"
 - "eslint-plugin-html": "*"
+- "eslint-plugin-react": "*"
