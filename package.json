@@ -1,6 +1,6 @@
 {
   "name": "cooking-lint",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "cooking lint",
   "main": "index.js",
   "scripts": {
