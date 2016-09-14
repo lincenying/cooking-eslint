@@ -1,6 +1,6 @@
 {
-  "name": "cooking-lint",
-  "version": "0.1.2",
+  "name": "cooking-eslint",
+  "version": "1.0.0",
   "description": "cooking lint",
   "main": "index.js",
   "scripts": {
@@ -8,28 +8,28 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lincenying/cooking-lint.git"
+    "url": "git+https://github.com/lincenying/cooking-eslint.git"
   },
   "keywords": [
     "cooking",
     "lint"
   ],
-  "author": "qingwei-li <qingwei.li@ele.me>",
+  "author": "lincenying <lincenying@qq.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lincenying/cooking-lint/issues"
+    "url": "https://github.com/lincenying/cooking-eslint/issues"
   },
-  "homepage": "https://github.com/lincenying/cooking-lint#readme",
+  "homepage": "https://github.com/lincenying/cooking-eslint#readme",
   "dependencies": {
     "eslint": "^2.10.0",
     "eslint-loader": "^1.3.0",
+    "eslint-config-vue": "^1.0.2",
+    "eslint-plugin-import": "^1.14.0",
     "eslint-friendly-formatter": "*",
     "eslint-config-defaults": "*",
     "eslint-config-elemefe": "*",
     "eslint-plugin-vue": "*",
     "eslint-plugin-html": "*",
-    "eslint-plugin-react": "*",
-    "eslint-config-vue": "^1.0.2",
-    "eslint-plugin-import": "^1.14.0"
+    "eslint-plugin-react": "*"
   }
 }
