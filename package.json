@@ -1,6 +1,6 @@
 {
   "name": "cooking-eslint",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "cooking lint",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,8 @@
     "url": "https://github.com/lincenying/cooking-eslint/issues"
   },
   "homepage": "https://github.com/lincenying/cooking-eslint#readme",
-  "dependencies": {
+  "dependencies": {  
+    "babel-eslint": "*",
     "eslint": "^2.10.0",
     "eslint-loader": "^1.3.0",
     "eslint-config-lcy-vue": "^1.0.2",
@@ -31,6 +32,7 @@
     "eslint-config-elemefe": "*",
     "eslint-plugin-vue": "*",
     "eslint-plugin-html": "*",
-    "eslint-plugin-react": "*"
+    "eslint-plugin-react": "*",
+    "eslint-plugin-babel": "*"
   }
 }
